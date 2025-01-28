@@ -39,7 +39,7 @@ export function OfferRow({ offer }: OfferRowProps) {
                     <span className="text-sm">{offer.account.substring(0, 16)}...</span>
                     <div className="flex gap-1 pt-1">
                         {offer.tags.map((tag) => {
-                        let bgColor = "bg-transparent"; // Default color
+                        const bgColor = "bg-transparent"; // Default color
                         let bdColor = "bg-gray-500"; // Default color
                         let textColor = "bg-gray-500";
 
