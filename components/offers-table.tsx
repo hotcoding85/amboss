@@ -1,10 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Star, Info } from "lucide-react"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
-import { Badge } from "./ui/badge"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip"
+import { Table, TableBody, TableHead, TableHeader, TableRow } from "./ui/table"
 import { useState } from "react"
 import { OfferRow } from "./offers-row"
 import info from "./images/info.svg"

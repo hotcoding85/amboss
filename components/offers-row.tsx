@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image"
 import { TableCell, TableRow } from "./ui/table"
 interface Offer {
     id: string
